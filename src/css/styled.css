@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+body {
+  background-color: #070d12;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  padding: 30px;
+}
+
+.informaçao {
+  margin-top: 20px;
+}
+
+.informaçao .sub-titulo {
+  text-align: center;
+}
+
+.cartao {
+  background-color: #ffecef;
+  opacity: 0.8;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  filter: drop-shadow(0 0 0.4em white);
+  color: #aa5656;
+}
+
+.cartao .minhas-informacoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cartao .minhas-informacoes .detalhes {
+  margin-left: 20px;
+  font-weight: bolder;
+}
+
+.cartao .minhas-informacoes img {
+ padding: 10px;
+ border-radius: 100px;
+ width: 80px;
+}
+
+.rede-sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  list-style: none;
+}
+
+.rede-sociais li a {
+  width: 200px;
+  display: block;
+  color: azure;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  transition: opacity 0.3s ease-in-out;
+  margin-top: 10px;
+}
+.rede-sociais li a:hover {
+  opacity: 0.8;
+}
+
+.rede-sociais .linkedin {
+  background-color: #472d2d;
+}
+
+.rede-sociais .github {
+  background-color: #472d2d;
+}
+
+
